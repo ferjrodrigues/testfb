@@ -1,0 +1,132 @@
+{
+  "references": {},
+  "placeholderOverrides": {
+    "RSMUtility": "RSM Utility, 3.5.21.0 (CODESYS)",
+    "Standard": "Standard, 3.5.18.0 (System)",
+    "System_VisuElem3DPath": "VisuElem3DPath, 4.7.0.0 (System)",
+    "System_VisuElemCamDisplayer": "VisuElemCamDisplayer, 4.7.0.0 (System)",
+    "System_VisuElemMeter": "VisuElemMeter, 4.9.0.0 (System)",
+    "System_VisuElems": "VisuElems, 4.9.1.0 (System)",
+    "System_VisuElemsAlarm": "VisuElemsAlarm, 4.9.0.0 (System)",
+    "System_VisuElemsDateTime": "VisuElemsDateTime, 4.9.0.0 (System)",
+    "System_VisuElemsSpecialControls": "VisuElemsSpecialControls, 4.7.0.0 (System)",
+    "System_VisuElemsWinControls": "VisuElemsWinControls, 4.9.0.0 (System)",
+    "System_VisuElemTextEditor": "VisuElemTextEditor, 4.8.0.0 (System)",
+    "System_VisuElemTrace": "VisuElemTrace, 4.9.0.0 (System)",
+    "System_VisuElemXYChart": "VisuElemXYChart, 4.8.0.0 (System)",
+    "System_VisuInputs": "VisuInputs, 4.7.0.0 (System)",
+    "System_VisuNativeControl": "VisuNativeControl, 4.9.0.0 (System)"
+  },
+  "v3Meta": {
+    "objectName": null,
+    "objectGuid": "039fb10d-aa19-414b-a48e-c6f393292a31",
+    "objectTypeGuid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+    "embeddedObjectTypeGuids": [],
+    "properties": {
+      "Elau.Epas5.LibraryConfiguration.CoDeSysInterface.MappingTableObject": "<?xml version=\"1.0\" encoding=\"utf-8\"?><Single xml:space=\"preserve\" Type=\"{c8edade9-a049-4800-a2d4-edc2b2aca694}\" Method=\"IArchivable\"><Array Name=\"LibraryMappings\" Type=\"string\"><Single Type=\"string\">AsyncManager, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Device Support, 1.0.5.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic, 1.0.1.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Dictionary, 1.0.9.0 (Schneider Electric)</Single><Single Type=\"string\">Diagnostic Interfaces, 1.0.3.0 (Schneider Electric)</Single></Array></Single>"
+    },
+    "subObjects": {}
+  },
+  "libraryParameters": {},
+  "v3SystemLibraries": [
+    {
+      "namespace": "BPLog",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "BreakpointLogging",
+        "defaultResolution": "Breakpoint Logging Functions, * (3S - Smart Software Solutions GmbH)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IoStandard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IoStandard",
+        "defaultResolution": "IoStandard, 3.5.17.0 (System)",
+        "allowUnqualifiedAccess": true,
+        "linkAllContent": true
+      }
+    },
+    {
+      "namespace": "SEC",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_PLCSystem",
+        "defaultResolution": "M262 PLCSystem, 1.0.2.2 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC_DIAG_DEVS",
+      "libraryReference": {
+        "$type": "ManagedLibrary",
+        "libraryId": "Diagnostic Device Support, 1.0.5.0 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC_RELOC",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_RelocationTable",
+        "defaultResolution": "Relocation Table, 1.0.3.0 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC_SLSYS",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SerialLineSystem",
+        "defaultResolution": "SerialLineSystem, 1.0.2.1 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEC_TM3SYS",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "TM3System",
+        "defaultResolution": "TM3System, 1.0.2.2 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "SEN",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "SE_PLCCommunication",
+        "defaultResolution": "PLCCommunication, 1.0.5.5 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "Standard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "Standard",
+        "defaultResolution": "Standard, 3.5.18.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "TMS",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "TMSSystem",
+        "defaultResolution": "TMSSystem, 1.0.2.1 (Schneider Electric)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "Util",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "Util",
+        "defaultResolution": "Util, 3.5.21.0 (System)",
+        "allowUnqualifiedAccess": true
+      }
+    }
+  ]
+}
